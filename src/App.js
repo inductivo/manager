@@ -19,10 +19,9 @@ class App extends Component {
     firebase.initializeApp(config);
   }
 
-  render () {
+  render() {
     const store = createStore(reducers, {}, applyMiddleware(ReduxThunk));
-
-    return (
+    return(
       <Provider store={store}>
         <LoginForm />
       </Provider>
