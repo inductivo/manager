@@ -8,11 +8,17 @@
 	},
 	"dependencies": {
 		"firebase": "^4.2.0",
+		"mobx": "^3.2.2",
+		"mobx-react": "^4.2.2",
+		"prop-types": "^15.5.10",
 		"react": "16.0.0-alpha.12",
 		"react-native": "0.46.4",
+		"react-native-router-flux": "^4.0.0-beta.15",
+		"react-navigation": "^1.0.0-beta.11",
 		"react-redux": "^5.0.5",
 		"redux": "^3.7.2",
-		"redux-thunk": "^2.2.0"
+		"redux-thunk": "^2.2.0",
+		"update": "^0.7.4"
 	},
 	"devDependencies": {
 		"babel-jest": "20.0.3",
