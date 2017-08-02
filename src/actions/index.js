@@ -43,5 +43,5 @@ const loginUserSuccess = (dispatch, user) => {
   });
 
   //The action is in the Router.js in props key
-  Actions.employeeList();
+  Actions.main();
 }
