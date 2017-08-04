@@ -21,6 +21,7 @@ const RouterComponent = () => {
             title="Employees"
             rightTitle= "Add"
             onRight={() => Actions.employeeCreate()}
+            onLeft={() => null}
           />
           <Scene
             key="employeeCreate"
